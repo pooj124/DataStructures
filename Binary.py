@@ -1,7 +1,7 @@
 def binary(nums, tar):
     l, r =0, len(nums) -1
     while l <= r:
-        mid = (l+r)//2
+        mid = l + ((l+r)//2)
         if mid == tar:
             return tar
             
